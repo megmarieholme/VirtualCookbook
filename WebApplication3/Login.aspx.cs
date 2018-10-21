@@ -7,19 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace WebApplication3
 {
-    public partial class RecipePage : System.Web.UI.Page
+    public partial class Login : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
-        protected void AddRecipe_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("NewRecipe.aspx");
-        
-        }
 
-        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        protected void Login1_Authenticate(object sender, AuthenticateEventArgs e)
         {
 
         }

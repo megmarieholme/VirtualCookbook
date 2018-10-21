@@ -10,7 +10,7 @@
 namespace WebApplication3 {
     
     
-    public partial class NewRecipe {
+    public partial class CreateAccount {
         
         /// <summary>
         /// form1 control.
@@ -22,66 +22,48 @@ namespace WebApplication3 {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// btnRecipePage control.
+        /// emailTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton btnRecipePage;
+        protected global::System.Web.UI.WebControls.TextBox emailTextBox;
         
         /// <summary>
-        /// name control.
+        /// usernameTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox name;
+        protected global::System.Web.UI.WebControls.TextBox usernameTextBox;
         
         /// <summary>
-        /// nullName control.
+        /// passwordTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label nullName;
+        protected global::System.Web.UI.WebControls.TextBox passwordTextBox;
         
         /// <summary>
-        /// ingredients control.
+        /// createAccountButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ingredients;
+        protected global::System.Web.UI.WebControls.Button createAccountButton;
         
         /// <summary>
-        /// addIngredient control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button addIngredient;
-        
-        /// <summary>
-        /// instructions control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox instructions;
-        
-        /// <summary>
-        /// btnSave control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox btnSave;
+        protected global::System.Web.UI.WebControls.Label Label1;
     }
 }

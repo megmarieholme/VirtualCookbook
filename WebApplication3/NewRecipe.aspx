@@ -22,18 +22,22 @@
                 <asp:LinkButton runat="server" CssClass="btn btn-default" ID="btnRecipePage" Text="Recipe Page" OnClick="btnRecipePage_Click" />
             </div>
             <asp:Label runat="server" Text="Name" />
-            <asp:TextBox runat="server" ID="name" />
+            <asp:TextBox runat="server" ID="name" OnTextChanged="name_TextChanged" />
+        &nbsp;<asp:Label ID="nullName" runat="server" Text="Label"></asp:Label>
         </div>
         <p>
-            <asp:Label runat="server" Text="Ingredients" />
+            <asp:Label runat="server" Text="Ingredient" />
             <asp:TextBox runat="server" ID="ingredients" Height="153px" Width="210px" />
+            </p>
+        <p>
+            <asp:Button ID="addIngredient" runat="server" OnClick="addIngredient_Click" Text="Add Another Ingredient" />
             </p>
         <p>
             <asp:Label runat="server" Text="Instructions" />
             <asp:TextBox runat="server" ID="instructions" Height="209px" Width="208px" />
 
         </p>
-            <asp:TextBox runat="server" CssClass="btn btn-success" Text="Save" ID="btnSave" />
+            <asp:TextBox runat="server" CssClass="btn btn-success" Text="Save" ID="btnSave" OnTextChanged="btnSave_TextChanged" />
     </form>
 </body>
 </html>

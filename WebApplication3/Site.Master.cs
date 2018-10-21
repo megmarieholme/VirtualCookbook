@@ -13,5 +13,15 @@ namespace WebApplication3
         {
 
         }
+
+        protected void createAccountButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("CreateAccount.aspx");
+        }
+
+        protected void loginButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Login.aspx");
+        }
     }
 }
